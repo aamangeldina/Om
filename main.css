@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Thasadith', sans-serif;
+  }
+  #page-wrap {
+    width: 800px;
+    margin: 0 auto;
+}
+
+  /*--- navigation bar ---*/
+  .navbar {
+    margin: 100px 0px;
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .nav-link,
+  .navbar-brand {
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+  
+  }
+  .navbar-brand:hover{
+    color: rgb(77, 77, 77);
+    text-decoration: underline;
+    text-decoration-color: #333;
+  }
+
+  .nav-link {
+    margin-right: 1em !important;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    color: rgb(77, 77, 77);
+  }
+
+  hr{
+    margin: 40px 0px;
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .news_text  {
+    text-align: center;
+  }
+
+  .about p{
+    font-size:24px;
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  .contact{
+    padding-left: 30px;
+  }
+  
+  .header {
+    background-image: url(1.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+  }
+
+  .heading_left {
+    font-weight:300;
+    font-size: 45px;
+    text-align: left;
+    padding-top: 30px;
+    color:rgb(77, 77, 77)
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .description p{
+    font-size: 20px;
+    padding-top: 60px;
+    color: rgb(77, 77, 77);
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .button{
+    padding: 15px 30px;
+    margin: 20px 0px;
+    background-color: white;
+    color: rgb(77, 77, 77);
+    border: 1px solid rgb(158, 158, 158);
+    font-size: 16px;
+    font-weight: 100;
+    cursor: pointer;
+    font-family: 'Thasadith', sans-serif;
+  }
+
+  .button a:hover{
+    color:rgb(121, 121, 121);
+    size: 80px;
+    }
+
+  .heading_usual{
+    font-size: 20px;
+    font-weight:200;
+    padding-top: 30px;
+    padding-left: 140px;
+    font-family: 'Thasadith', sans-serif;
+
+  }
+
+  .container{
+    font-family: 'Thasadith', sans-serif;
+  }
+
+img{
+  padding-top:40px;
+}
+  .left{
+    padding-left:40px;
+    font-size: 16px;
+  }
+
+  .date{
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .right{
+    padding-right:40px;
+  }
+  @media (max-width: 575.98px) {
+    .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+    }
+    
+    .image_body{
+      height: 300px;
+    }
+
+  } 
